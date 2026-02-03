@@ -57,7 +57,3 @@ The system transitions a user request through the following state machine:
 2. **Generation**: Stream tokens from the primary model.
 3. **Verification**: Validate output against safety and logic rules.
 4. **Healing**: If validation fails, apply retry strategies until success or exhaustion.
-
-## License
-
-MIT
